@@ -10,19 +10,19 @@
 </template>
 
 <script>
-import BookItem from "./BookItem";
-import BookForm from "./BookForm";
+import BookItem from './BookItem';
+import BookForm from './BookForm';
 
 export default {
-  name: "BookList",
+  name: 'BookList',
   data() {
     return {
-      title: "All Books",
-      states: ["Want to Read", "Read", "Reading"],
+      title: 'All Books',
+      states: ['Want to Read', 'Read', 'Reading'],
       books: [
-        { title: "Self-Reliance", author: "Ralph Waldo Emerson" },
-        { title: "American Gods", author: "Neil Gaiman" },
-        { title: "Amusing Ourselves to Death", author: "Neil Postman" }
+        { title: 'Self-Reliance', author: 'Ralph Waldo Emerson' },
+        { title: 'American Gods', author: 'Neil Gaiman' },
+        { title: 'Amusing Ourselves to Death', author: 'Neil Postman' }
       ]
     };
   },
